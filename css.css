@@ -1,0 +1,97 @@
+/* 기본적인 스타일 설정 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 게임 컨테이너 */
+.game-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* 클릭 버튼 스타일 */
+.click-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.click-button:hover {
+    background-color: #45a049;
+}
+
+/* 순위표 스타일 */
+.rank-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    height: 250px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.rank-list li {
+    margin: 5px 0;
+}
+
+/* 친구 초대 버튼 스타일 */
+.invite-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.invite-button:hover {
+    background-color: #1976D2;
+}
+
+/* 의견 보내기 버튼 스타일 */
+.send-feedback-button {
+    background-color: #FF9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.send-feedback-button:hover {
+    background-color: #FB8C00;
+}
+
+/* 닉네임 설정 화면 */
+.nickname-setup {
+    display: none;
+    margin-top: 20px;
+}
+

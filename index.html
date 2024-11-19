@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 게임 - 순위표</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>웹 게임 클릭</h1>
+
+        <!-- 클릭 버튼 -->
+        <button id="clickButton" class="click-button">클릭!</button>
+        <p>내 클릭 횟수: <span id="clickCount">0</span></p>
+
+        <h2>순위표 (최대 250명)</h2>
+        <ol id="rankList" class="rank-list">
+            <!-- 순위표 내용이 여기에 들어갑니다 -->
+        </ol>
+
+        <button id="sendFeedback" class="send-feedback-button">의견 보내기</button>
+
+        <h2>친구 초대</h2>
+        <button id="inviteFriendButton" class="invite-button">친구 초대</button>
+
+        <!-- 초대 링크를 통해 들어온 경우, 닉네임 설정 -->
+        <div id="nicknameSetup" class="nickname-setup">
+            <h3>초대받은 유저</h3>
+            <p>초대한 친구의 닉네임: <span id="inviterNickname"></span></p>
+            <input type="text" id="newNickname" placeholder="닉네임을 입력하세요">
+            <button id="setNicknameButton">닉네임 설정</button>
+            <button id="skipNicknameButton">닉네임 설정 안하기</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
